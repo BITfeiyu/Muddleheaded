@@ -1,0 +1,10 @@
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow
+~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
+MAINWINDOW_H	mainwindow.h	2;"	d
+Ui	mainwindow.h	/^namespace Ui {$/;"	n
+MainWindow	mainwindow.h	/^class MainWindow;$/;"	x
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
+MainWindow	mainwindow.h	/^    explicit MainWindow(QWidget *parent = 0);$/;"	p	class:MainWindow
+~MainWindow	mainwindow.h	/^    ~MainWindow();$/;"	p	class:MainWindow
+ui	mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	class:MainWindow
