@@ -186,7 +186,6 @@ typedef struct messageBody
 | 函数名	| CheckRegisterInput | 
 | 功能概要	 | 检查用户输入注册信息是否正确（客户端，模块内） | 
 | 记述形式	| int CheckRegisterInput (tagUSER_t *registerInfo) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- |
@@ -201,7 +200,6 @@ typedef struct messageBody
 | 函数名	| CheckUserIdExist | 
 | 功能概要	 | 调用socket函数判断是用户名是否存在（客户端，模块内） | 
 | 记述形式	| int CheckUserIdExist (char *pcUserId)) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- |
@@ -216,7 +214,6 @@ typedef struct messageBody
 | 函数名	| GetMessage | 
 | 功能概要	 | 获取未读消息信息 | 
 | 记述形式	| Int GetMessage(stInform * pstMessage) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- |
@@ -232,7 +229,6 @@ typedef struct messageBody
 | 函数名	| SendMessage| 
 | 功能概要	 | 发送消息 | 
 | 记述形式	| IntSendMali(char*pcUid,char*pcToUid,char*pcContent,char*pcAttach,int iSendType) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- |
@@ -252,7 +248,6 @@ typedef struct messageBody
 | 函数名	| AddContact | 
 | 功能概要	 | 添加联系人 | 
 | 记述形式	| Int AddContact (char* pcUserId,char* pcContactId) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
@@ -269,7 +264,6 @@ typedef struct messageBody
 | 函数名	| DeleteContact | 
 | 功能概要	 | 删除好友 | 
 | 记述形式	| Int DeleteContact (char* pcUserId,char* pcContactId) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
@@ -286,7 +280,6 @@ typedef struct messageBody
 | 函数名	| OpenMysql | 
 | 功能概要	 | 打开与数据库连接（服务端） | 
 | 记述形式	| int OpenMysql () | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
@@ -301,7 +294,6 @@ typedef struct messageBody
 | 函数名	| CloseMysql | 
 | 功能概要	 | 关闭与数据库连接（服务端） | 
 | 记述形式	| int CloseMysql () | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
@@ -316,7 +308,6 @@ typedef struct messageBody
 | 函数名	| ExecSql | 
 | 功能概要	 | 执行sql语句(服务端) | 
 | 记述形式	| int ExecSql (char *sqltext) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
@@ -332,7 +323,6 @@ typedef struct messageBody
 | 函数名	| GetNextRowData | 
 | 功能概要	 | 取出表中的下一条数据 | 
 | 记述形式	| MYSQL_ROW  GetNextRowData (MY_SQL_RES  *res_ptr) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
@@ -347,7 +337,6 @@ typedef struct messageBody
 | 函数名	| SelectTableData | 
 | 功能概要	 | 获取表数据 | 
 | 记述形式	| MYSQL_RES*  SelectTableData (char  *sqltext) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
@@ -362,13 +351,12 @@ typedef struct messageBody
 | 函数名	| FreeMemoryData | 
 | 功能概要	 | 释放内存 | 
 | 记述形式	| Void FreeMemoryData (MY_SQL_RES  *res_ptr) | 
-
 参数
 | 类型	| 变量名	| I/O | 	说明 | 
 | -- | -- | -- | -- | 
 | MY_SQL_RES* | 	res_ptr | i | 表存储地址 |
 | 返回值类型	| void | | 	说明 | 
 
-
+笔记地址：http://note.youdao.com/noteshare?id=3cfdeaca79a8e08ba150dfe110823dd0
 
 
