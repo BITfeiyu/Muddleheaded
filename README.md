@@ -3,7 +3,7 @@
 及时通讯软件——计算机学院小学期大作业
 
 ------
-## 组名：4*Five
+## 组名：稀里糊涂小组
 申志宇 (BITfeiyu)<br>
 主文浩(Zxiansheng)<br>
 唐思凡 (HYUNEER)<br>
