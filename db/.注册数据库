@@ -1,1 +1,22 @@
 
+static bool createDatabase();
+在build文件目录下新建一个数据库db
+返回值：恒为true
+
+static bool deletedatabase();
+删除默认目录下的db数据库
+返回值：成功删除数据库返回true,数据库不存在或删除失败返回false
+
+static bool initDatadase();
+在db的基础上初始化user表格
+返回值：成功初始化数据库返回true,数据库无法打开或初始化失败返回false
+
+static bool addNewUser(QString pcUserNickName, QString pcPasswd)
+参数：用户提供的昵称,用户提供的密码
+返回值：注册成功返回true,数据库无法打开或者密码格式不正确返回false
+
+static bool login(QString pcUserID, QString pcUserpasswd);
+参数：用户提供的userID，用户提供的密码
+返回值：登陆成功返回true,数据库无法打开或无法找到pcUserID或密码不匹配返回false
+
+main函数为测试用例
