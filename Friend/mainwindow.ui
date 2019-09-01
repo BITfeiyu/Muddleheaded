@@ -26,10 +26,6 @@
     <property name="text">
      <string/>
     </property>
-    <property name="icon">
-     <iconset resource="res.qrc">
-      <normaloff>:/imag/logo.png</normaloff>:/imag/logo.png</iconset>
-    </property>
     <property name="iconSize">
      <size>
       <width>100</width>
@@ -84,8 +80,6 @@
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="res.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
