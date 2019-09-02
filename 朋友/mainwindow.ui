@@ -49,10 +49,10 @@
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>-1</x>
-      <y>139</y>
+      <x>0</x>
+      <y>140</y>
       <width>301</width>
-      <height>661</height>
+      <height>631</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -60,7 +60,7 @@
       <widget class="QTreeWidget" name="treeWidget">
        <column>
         <property name="text">
-         <string/>
+         <string notr="true">1</string>
         </property>
        </column>
       </widget>
@@ -75,6 +75,19 @@
       <width>301</width>
       <height>26</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>770</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
     </property>
    </widget>
   </widget>
