@@ -34,32 +34,32 @@ DialogList::DialogList(QWidget *parent) :
         btn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);//文字图片一起显示
         ui->VLayout->addWidget(btn);//加入垂直布局
         vToolbtn.push_back(btn);//容器保存
-        //isShow.push_back(false);
+        isShow.push_back(false);
+      }
         //添加信号槽连接
         for(int i = 0; i < vToolbtn.size(); i++ )
         {
            connect(vToolbtn[i], &QToolButton::clicked,[=](){
-                /*if(isShow[i])
+                if(isShow[i])
                 {
                     QString str = QString("%1窗口已经打开").arg(vToolbtn[i] -> text());
                     QMessageBox::warning(this,"警告",str);
                     return;
                 }
-                isShow[i] = true;*/
+                isShow[i] = true;
                 Chat *chat = new Chat(0,vToolbtn[i] -> text());
                 chat -> setWindowTitle(vToolbtn[i] -> text());
                 chat -> setWindowIcon(vToolbtn[i] -> icon());
                 chat -> show();
 
-                /*connect(chat,&Chat::closeWidget,[=](){
+                connect(chat,&Chat::closeWidget,[=](){
                     isShow[i] =false;
-              });*/
+              });
 
             }); //弹出对话框
         }
 
-    }
-}
+   }
 
 DialogList::~DialogList()
 {

@@ -7,12 +7,12 @@ Chat::Chat(QWidget *parent,QString name) :
 {
     ui->setupUi(this);
 }
-/*
+
 void Chat::closeEvent(QCloseEvent*)
 {
     emit this -> closeWidget();
 }
-*/
+
 
 Chat::~Chat()
 {

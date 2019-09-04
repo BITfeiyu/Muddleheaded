@@ -17,14 +17,14 @@ public:
 
 private:
     Ui::Chat *ui;
-/*
+
 signals:
     void closeWidget();
 
 
  public:
     void closeEvent(QCloseEvent*);
-*/
+
 };
 
 #endif // CHAT_H
